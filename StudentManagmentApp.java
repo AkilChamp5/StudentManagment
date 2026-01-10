@@ -32,7 +32,8 @@ public class StudentManagmentApp {
                     System.out.println("Nuk mund të shtohen më studentë.");
                 } else {
                 System.out.print("ID: ");
-                id[count] = input.nextLine(); 
+                id[count] = input.nextInt();
+                input.nextLine();
                 
                 System.out.print("Emri: ");
                 name[count] = input.nextLine();
