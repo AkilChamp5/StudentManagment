@@ -112,5 +112,6 @@ public class StudentManagmentApp {
                 System.out.println("Opsion i pavlefshëm.");
             }
         }
+        input.close();
     }    
 }
